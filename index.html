@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSOR</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+       <nav>
+        <div class="left">
+            <img src="Assets/logo.png" alt="Logo">
+
+        </div>
+        <div class="right">
+            <a href="https://github.com/aneesmohammed18"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mohammedanees18/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </div>
+       </nav>
+       <div class="title">
+        <h1> ROCK PAPER SCISSORS </h1>
+       </div>
+       <div class="gamecontainer">
+       <div class="you">
+        <h1>YOU</h1>
+        <h1 id="yourscore">0</h1>
+        <img id="displayuserchoice" src="ASSETS/rock.png" alt="">
+
+      </div>
+          <div class="separator"></div>
+      <div class="agent">
+        <h1>AGENT</h1>
+        <h1 id="agentscore">0</h1>
+        <img  id="displayagentchoice" src="ASSETS/paper.png" alt="">
+
+      </div>
+       </div>
+       <div class="options">
+        <h1 id="stats">PLAYER WHO WINS 5 TIMES FIRST IS DECLARED WINNER</h1>
+        <img src="ASSETS/rock.png" alt="" id="rock">
+        <img src="ASSETS/paper.png" alt="" id="paper">
+        <img src="ASSETS/scissors.png" alt="" id="scissor">
+    </div>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</body>
+</html>
